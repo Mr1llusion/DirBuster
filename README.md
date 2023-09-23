@@ -1,7 +1,7 @@
 # Web Directory Enumerator
 ![2023-09-23_17-04](https://github.com/Mr1llusion/DirBuster/assets/144902381/1c653f6c-9ac3-429b-9867-59cc960e4f49)
 
-Web Directory Enumerator is a Python script for discovering web directory paths through href links and wordlist-based attacks.
+This is a Python script for discovering web directory paths through href links and wordlist-based attacks.
 
 ## Features
 
