@@ -83,6 +83,7 @@ class WebEnumerator:
         It initiates the exploration of the website starting from the base URL.
         """
         try:
+            self.max_depth = int(input(colored("\n[*] -> How deep you want to enumeration: ", 'blue', attrs=["bold"])))
             self.full_base_url = self.get_valid_url()
             if self.full_base_url:
                 soup = self.get_soup(self.full_base_url)
