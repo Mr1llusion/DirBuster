@@ -156,7 +156,7 @@ class WebEnumerator:
                     and "#" not in full_url  # Exclude URLs containing "#"
             ):
 
-                print(f"[+] Scoping in: {full_url}")
+                print(colored(f"[+] Scoping in: {full_url}", 'green', attrs=["bold"]))
                 try:
                     inner_soup = self.get_soup(full_url)
                     inner_links = self.extract_links(inner_soup)
